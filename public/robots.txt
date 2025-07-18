@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Image sitemap
+Sitemap: https://yourdomain.com/image-sitemap.xml

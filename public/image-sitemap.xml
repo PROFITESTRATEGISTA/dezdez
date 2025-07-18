@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://yourdomain.com/</loc>
+    <image:image>
+      <image:loc>https://yourdomain.com/images/hero-emergency-medical.jpg</image:loc>
+      <image:title>Serviço de Emergência Médica 24h em São Paulo</image:title>
+      <image:caption>Equipe médica especializada em atendimento de emergência</image:caption>
+      <image:geo_location>São Paulo, Brasil</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://yourdomain.com/images/ambulance-service.jpg</image:loc>
+      <image:title>Ambulância UTI Móvel</image:title>
+      <image:caption>Serviço de ambulância com UTI móvel para emergências</image:caption>
+      <image:geo_location>São Paulo, Brasil</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/beneficios</loc>
+    <image:image>
+      <image:loc>https://yourdomain.com/images/medical-team.jpg</image:loc>
+      <image:title>Equipe Médica Especializada</image:title>
+      <image:caption>Nossa equipe de médicos e enfermeiros especializados</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/cobertura</loc>
+    <image:image>
+      <image:loc>https://yourdomain.com/images/coverage-map.jpg</image:loc>
+      <image:title>Mapa de Cobertura São Paulo</image:title>
+      <image:caption>Áreas de cobertura do serviço de emergência em São Paulo</image:caption>
+      <image:geo_location>São Paulo, Brasil</image:geo_location>
+    </image:image>
+  </url>
+</urlset>
