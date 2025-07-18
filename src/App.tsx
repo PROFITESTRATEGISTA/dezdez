@@ -13,17 +13,26 @@ import LeadCollection from '../components/LeadCollection';
 import CheckoutCalculator from '../components/CheckoutCalculator';
 import LocationPage from '../components/LocationPages';
 import FloatingWhatsApp from '../components/FloatingWhatsApp';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+function App() {
+  return (
+    <AuthProvider>
+      <Router>
+        <AppLayout>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/area-cliente/*" element={<ClientArea />} />
             <Route path="/admin/*" element={<AdminPanel />} />
             <Route path="/pagamento" element={<PaymentPage />} />
-            <Route path="/questionario-medico" element={<QuestionarioMedico />} />
+            <Route path="/questionario-medico" element={<MedicalQuestionnaire />} />
           </Routes>
         </AppLayout>
       </Router>
     </AuthProvider>
   );
-import { BillingPeriod, CheckoutData } from '../types';
 }
+
+import { BillingPeriod, CheckoutData } from '../types';
+
 export default App;
